@@ -7,7 +7,7 @@ docker build -t <image_name> .
 docker run -e path=env -p 8000:8000 -t --name <container_name> <image_name>
 ```
 
-### Sample inference
+### Sample Inferencing
 - After deploying, go to http://127.0.0.1:8000/docs
 - Test with post request using the payload below:
 
