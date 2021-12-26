@@ -15,7 +15,7 @@ docker run -e path=env -p 8000:8000 -t --name <container_name> <image_name>
 {"url":"https://github.com/Northerman/object_detection_hackathon/blob/main/20201107122805838.png?raw=True","image_id":20201107122805838}
 ```
 
-### Expected response in xywh and confidence
+### Expected response in xywh and score
 ![alt text](https://github.com/Northerman/object_detection_hackathon/blob/main/expected_response.png?raw=true)
 
 
