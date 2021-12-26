@@ -1,4 +1,5 @@
-## A code used for the object detection hackathon on under water pipes using Yolov5s
+## Used for the object detection hackathon on underwater pipes (Yolov5s)
+
 
 ### To Deploy
 ```
@@ -7,7 +8,6 @@ docker run -e path=env -p 8000:8000 -t --name <container_name> <image_name>
 ```
 
 ### Sample inference
-
 - After deploying, go to http://127.0.0.1:8000/docs
 - Test with post request using the payload below:
 
