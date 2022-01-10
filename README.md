@@ -1,7 +1,7 @@
 ## Used for the object detection hackathon on underwater pipes (Yolov5s)
 
 
-### To Deploy Locally run
+### To Deploy Locally Run Below
 ```
 docker build -t <image_name> .
 docker run -e path=env -p 8000:8000 -t --name <container_name> <image_name>
